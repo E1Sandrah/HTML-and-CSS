@@ -1,0 +1,26 @@
+.product-container{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 100px;
+}
+.product{
+    width: 30%;
+    height: 70%;
+    text-align: center;
+    background: linear-gradient(rgb(170, 78, 17), rgb(245, 62, 113), rgb(162, 27, 27));
+    box-shadow: 0 0 20px red ;
+    padding: 20px;
+}
+button{
+    background: linear-gradient(rgb(68, 48, 68),rgb(35, 16, 48), rgb(201, 44, 233));
+    color: white;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+}
+.body{
+  background-color: rgb(27, 27, 27);
+}
